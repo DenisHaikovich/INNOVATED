@@ -938,3 +938,232 @@
     flex: 0 1 100%;
   }
 }
+
+.five-section{}
+
+.five-section_container{}
+
+.five-section_item{}
+
+.five-section_item_text{
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 160%;
+  text-align: center;
+  letter-spacing: 0.05em;
+  color: #575859;
+  margin-bottom: 15px;
+}
+
+.five-section_item_title{
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 35px;
+  line-height: 140%;
+  text-align: center;
+  color: #050C26;
+  margin-bottom: 30px;
+}
+
+.five-section_item_block{
+  max-width: 353px;
+  max-height: 69px;
+  border: 1px solid #1B45DA;
+  border-radius: 5px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.five-section_item_block-text{
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 160%;
+  text-align: center;
+  color: #575859;
+}
+
+.five-section_item_block-btn{
+  button{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 160%;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 10px 20px;
+    background: #3988FF;
+  }
+}
+
+.five-section_inner{
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 60px;
+  margin: -15px;
+}
+
+.five-section_inner_colum{
+  flex: 0 1 33.33%;
+  padding: 0 15px;
+}
+
+.five-section_inner_colum_block{
+  text-align: center;
+  background: #FFFFFF;
+  box-shadow: 0px 4px 30px rgba(153, 153, 153, 0.14);
+  border-radius: 10px;
+}
+
+.five-section_inner_colum_block_header{
+  padding: 45px 0px;
+  background: #FFFFFF;
+  box-shadow: 0px 1px 0px rgba(153, 153, 153, 0.14);
+  //border-radius: 10px 10px 0px 0px;
+  position: relative;
+}
+
+.five-section_inner_colum_block_header-img{
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: none;
+}
+
+.inner_colum_block_header-title{
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 150%;
+  text-align: center;
+  color: #050C26;
+}
+
+.five-section_inner_colum_block_body{
+  padding: 40px 0px;
+}
+
+.inner_colum_block_content{}
+
+.inner_colum_block_content-top{}
+
+.inner_colum_block_content-top_price{
+  margin-bottom: 15px;
+}
+
+.dollar{
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 160%;
+  text-align: center;
+  color: #050C26;
+}
+
+.dollar_price{
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 35px;
+  line-height: 140%;
+  text-align: center;
+  color: #050C26;
+}
+
+.inner_colum_block_content-top_text{
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 160%;
+  text-align: center;
+  color: #575859;
+}
+
+.inner_colum_block_content-list{
+  padding: 40px 0px 30px 0px;
+}
+
+.inner_colum_block_content-list-item{}
+
+.inner_colum_block_content-list-iner{
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 160%;
+  text-align: center;
+  color: #575859;
+}
+
+.inner_colum_block_content-list-iner:not(:last-child){
+  margin-bottom: 15px;
+}
+
+.inner_colum_block_btn{
+  button{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 150%;
+    text-align: center;
+    color: #3988FF;
+    padding: 15px 30px;
+    border: 1px solid #3988FF;
+    border-radius: 5px;
+    background: #FFF;
+  }
+}
+
+.five-section_inner_colum_block:hover{
+  .five-section_inner_colum_block_header{
+    background: linear-gradient(180deg, #D95374 0%, #D32852 100%);
+    border-radius: 10px 10px 0px 0px;
+  }
+
+  .inner_colum_block_header-title{
+    color: #FFFFFF;
+  }
+
+  .five-section_inner_colum_block_body{
+    background: linear-gradient(180deg, #D9315A 0%, #F3678A 100%);
+    border-radius: 0px 0px 10px 10px;
+  }
+
+  .dollar{
+    color: #FFF;
+  }
+
+  .dollar_price{
+    color: #FFF;
+  }
+
+  .inner_colum_block_content-top_text{
+    color: #FFF;
+  }
+
+  .inner_colum_block_content-list-iner{
+    color: #FFF;
+  }
+
+  .inner_colum_block_btn{
+    button{
+      background: #3988FF;
+      color: #FFF;
+    }
+  }
+  .five-section_inner_colum_block_header-img{
+    display: block;
+  }
+}
